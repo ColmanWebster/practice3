@@ -1,4 +1,54 @@
 
 body{
-    /* comment */
+    background-color: gray;
+}
+
+.cont{
+    background-color: lightgray;
+    border: 1px solid saddlebrown;
+    color: saddlebrown;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
+
+img{
+    width: 200px;
+    position: relative;
+}
+
+p{
+    display: inline;
+}
+
+#cont1{
+    height: 150px;
+}
+
+#cont2{
+    height: 98px;
+}
+
+#cont3{
+    height: 50px;
+}
+
+#img1, #img3{
+    float: left;
+}
+
+#img2{
+    float: right;
+}
+
+#p1{
+    line-height: 150px;
+}
+
+#p2{
+    line-height: 98px;
+}
+
+#p3{
+    line-height: 50px;
 }
